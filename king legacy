@@ -1,1 +1,4 @@
-print("je suis gay") 
+local A_1 = "j'aime les hommes"
+local A_2 = "All"
+local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+Event:FireServer(A_1, A_2)
